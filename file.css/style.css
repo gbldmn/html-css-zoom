@@ -6,14 +6,13 @@
   
 /* tati blocco iniziale  */
 section {
-    border: 3px solid red;
     height: 100vh;
+    background-color: rgb(38, 19, 19);
 }
 
 header {
     height: 10vh;
-    border: 3px solid blue;
-    background-color: black;
+    background-color: rgb(38, 19, 19);
     position: relative;
 
 }
@@ -34,30 +33,74 @@ header button {
 .scritta {
     top: 1px;
     bottom: 0;
-    right: 50px;
-    width:px;
+    right: 30px;
     height: 50px;
 }
 .logo {
     top: 1px;
     bottom: 0;
     right: 0px;
-    width: 50px;
+    width: 30px;
     height: 50px;
 } 
    /*inizio parte centrale  */
 
-.flex {                  
+.flex {   
+    height:80vh;            
     width: 80%;
     margin: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     overflow: scroll;
+     flex-basis: calc(100%/35 - 1%);
 }
-.card {
-    flex-basis: calc(100%/35 - 1%);
-}
-img {
-    width: 100%;
-}
+.card {               
+    display: block;
+    margin-right: 1px;
+ }
+ .relative {
+    position: relative;
+ }
+ img {
+    display: inline-block;
+ }
+ .absolute{
+
+    top: 10px;
+    bottom: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    background-color:white;
+    padding: 15px;
+ }
+ /* parte finale */
+ footer {
+    border: 1px solid red;
+    height: 10vh;
+    background-color: rgb(21, 66, 66);
+ }
+ .flexbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+ }
+ footer div {
+    color: white;
+    display: inline-block;
+    align-items: center;
+ }
+ div span {
+    color:red;
+    padding:26px;
+    background-color:gray
+    
+    
+ }
+ a {
+    color: white;
+    padding: 15px;
+ }
