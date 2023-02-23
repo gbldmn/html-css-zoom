@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+section {
+    border: 3px solid red;
+    height: 100vh;
+}
+
+header {
+    height: 10vh;
+    border: 3px solid blue;
+    background-color: black;
+
+}
+header div {
+    display: inline-block;
+    color: white;
+}
