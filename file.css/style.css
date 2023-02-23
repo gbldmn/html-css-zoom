@@ -52,32 +52,23 @@ header button {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    overflow: scroll;
-     flex-basis: calc(100%/35 - 1%);
+
 }
+
 .card {               
     display: block;
-    margin-right: 1px;
+    margin-right: 2px;
  }
  .relative {
     position: relative;
  }
  img {
     display: inline-block;
+    width: 17vh;
  }
- .absolute{
 
-    top: 10px;
-    bottom: 0;
-    right: 0;
-    width: 50px;
-    height: 50px;
-    background-color:white;
-    padding: 15px;
- }
  /* parte finale */
  footer {
-    border: 1px solid red;
     height: 10vh;
     background-color: rgb(21, 66, 66);
  }
@@ -92,15 +83,24 @@ header button {
     color: white;
     display: inline-block;
     align-items: center;
+    
  }
  div span {
     color:red;
     padding:26px;
-    background-color:gray
+    background-color:gray;
+    font-weight: bold;
     
     
  }
  a {
     color: white;
     padding: 15px;
+ }
+ .yellow {
+    color: yellow;
+ }
+ .icon {
+    margin-right:  190px;
+
  }
